@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import store from "./store";
+import {store} from "./redux/configStore";
 import { Provider } from "react-redux";
 import 'antd/dist/reset.css';
 
