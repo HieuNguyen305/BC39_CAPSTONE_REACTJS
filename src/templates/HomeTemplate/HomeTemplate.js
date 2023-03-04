@@ -1,9 +1,11 @@
 import { Fragment } from "react";
+import React from "react";
 import { Route } from "react-router";
 import Footer from "./Layout/Footer/Footer";
 import Header from "./Layout/Header/Header";
 import HomeCarousel from "./Layout/HomeCarousel/HomeCarousel";
-export const HomeTemplate = (props) =>{
+
+const HomeTemplate = (props) =>{
 
     const {Component, ...restProps} = props;
     
@@ -17,4 +19,6 @@ export const HomeTemplate = (props) =>{
         
         </Fragment>
     }}/>
-}
+};
+
+export default HomeTemplate;

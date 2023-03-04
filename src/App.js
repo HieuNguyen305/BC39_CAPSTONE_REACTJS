@@ -1,7 +1,8 @@
 import "./App.css";
 import { createBrowserHistory } from 'history';
 import { Router, Switch } from "react-router";
-import { HomeTemplate } from "./templates/HomeTemplate/HomeTemplate";
+import React from "react";
+import HomeTemplate from "./templates/HomeTemplate/HomeTemplate";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import News from "./pages/News/News";
